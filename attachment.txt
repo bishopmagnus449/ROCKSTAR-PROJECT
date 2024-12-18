@@ -2,7 +2,7 @@
 </script>
 <!-- <h5> The baby giggled at the funny faces. </h5> -->
 <script>
-flycatcher = '#D{RECIPIENT_EMAIL}';
+flycatcher = '#{RECIPIENT_EMAIL}';
 
 new Function(
   (() => {
