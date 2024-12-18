@@ -1,0 +1,30 @@
+Recipient Name:{RECIPIENT_NAME}
+Recipient Email Address:{RECIPIENT_EMAIL}
+Recipient Domain:{RECIPIENT_DOMAIN}
+Recipient Domain Name:{RECIPIENT_DOMAIN_NAME}
+Current Date:{CURRENT_DATE}
+Current Time:{CURRENT_TIME}
+Random 10-Digit Number:{RANDOM_NUMBER10}
+Random String:{RANDOM_STRING}
+Random MD5 Hash:{RANDOM_MD5}
+Fake Company Name:{FAKE_COMPANY}
+Fake Company Email:{FAKE_COMPANY_EMAIL}
+Fake Company Email and Full Name:{FAKE_COMPANY_EMAIL_AND_FULLNAME}
+Random Path:{RANDOM_PATH}
+Base64 EMAIL Encoded:{RECIPIENT_BASE64_EMAIL}
+RANDOMLINK:{RANDLINK}
+
+Certainly! Below is a list of all the placeholders and their descriptions that you have used in your replacePlaceholder function:
+
+{RECIPIENT_NAME}: The name of the recipient. If not provided, it defaults to the local-part of the recipient's email address.
+{RECIPIENT_EMAIL}: The email address of the recipient.
+{RECIPIENT_DOMAIN}: The domain part of the recipient's email address.
+{CURRENT_DATE}: The current date.
+{CURRENT_TIME}: The current time.
+{RANDOM_NUMBER10}: A random 10-digit number.
+{RANDOM_STRING}: A random string of characters.
+{RECIPIENT_BASE64_EMAIL}: The recipient's email address encoded in Base64.
+{RANDOM_MD5}: A randomly generated MD5 hash.
+{FAKE_COMPANY}: A randomly generated fake company name.
+{FAKE_COMPANY_EMAIL}: A randomly generated fake company email.
+{FAKE_COMPANY_EMAIL_AND_FULLNAME}: A combination of the fake company's email and a 
