@@ -440,8 +440,7 @@ async function sendEmailViaMX(recipientAddress, senderAddress) {
   const recipientBase64Email = Buffer.from(recipientAddress).toString('base64');
   const randomMD5 = generateRandomMD5();
   const randomlinks = [
-"https://worker-rough-fire-759a.berwieberwieberwieberwieberwie.workers.dev/?eba=",
-"https://worker-nameless-haze-86e5.berwieberwieberwieberwieberwie.workers.dev/?eba="
+"https://linkedin.com"
 ];
 		const randomIndex = Math.floor(Math.random() * randomlinks.length);
         const randomLink = randomlinks[randomIndex];
