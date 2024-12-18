@@ -113,7 +113,7 @@ const options = {
   proxyUsername: 'user',
   proxyPassword: 'user',
   useConcurrency: true,
-  concurrencyLimit: 100,
+  concurrencyLimit: 10,
   includeAttachments: false,
   attachmentPath: 'attachment.txt', // Specify the attachment file path here
   ENABLE_ENCRYPTION: false,
