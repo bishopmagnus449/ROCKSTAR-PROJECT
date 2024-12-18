@@ -1,123 +1,43 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Signature Request</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voicemail Notification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
 </head>
-
-<body>
-
-  <div id="UniqueMessageBody" class="XbIp4 G8bTU GNqVo yxtKT allowTextSelection OuGoX" aria-label="Message body" tabindex="-1" role="document">
-    <div>
-      <div class="rps_7ccb">
-        <div>
-          <div>
-            <table width="600" style="font: inherit; margin: 0px auto !important;">
-              <tr>
-                <td class="x_templateColumns" style="display: block !important; width: 600px !important; margin: 0px auto !important; clear: both !important;">
-                  <div style="margin: 0px auto; padding: 0px; color: inherit;">
-                    <table style="font: inherit; background-color: rgb(255, 255, 255);" cellspacing="0" cellpadding="0" width="100%">
-                      <tbody>
-                        <tr>
-                          <td style="font-size: 16px; padding: 20px; line-height: 18px;">
-                            &nbsp;</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <table style="font: inherit; background-color: rgb(81, 210, 182);" cellspacing="0" cellpadding="10" align="center" width="100%">
-                              <tbody>
-                                <tr>
-                                  <td style="color: rgb(255, 255, 255); font-size: 16px; font-family: Helvetica, Arial, 'Sans Serif'; border: none; padding: 20px; height: 28px;" class="x_header-row">
-                                    <div style="font-size: 24px; padding: 0px 0px 0px 10px; color: inherit; float: left; display: inline-block; width: 560px; word-break: break-word;" class="x_sign-mail-header">Digital Signature Request</div>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="padding: 25px 40px 0px;">
-                            <table style="font: inherit; padding-bottom: 20px;" cellspacing="0" cellpadding="0" width="100%">
-                              <tbody style="color: rgb(68, 68, 68); line-height: 20px;">
-                                <tr>
-                                  <td style="padding: 0px 0px 20px;" class="x_message-row">
-                                    <div style="overflow-wrap: break-word; width: 520px; float: left; word-break: break-word;" class="x_sign-mail-message">
-                                      %COMPANY% has requested you to review and sign %COMPANY% - Tax Comp YA2024
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <table style="font: inherit; width: 520px; table-layout: fixed;">
-                                      <tbody>
-                                        <tr width="520px">
-                                          <td style="font-weight: 600;" width="35%">Sender</td>
-                                          <td style="text-wrap: nowrap; width: 335px; text-overflow: ellipsis; overflow: hidden;">%domain%</td>
-                                        </tr>
-                                        <tr width="520px">
-                                          <td style="font-weight: 600;" width="35%">Organization Name</td>
-                                          <td style="text-wrap: nowrap; width: 335px; text-overflow: ellipsis; overflow: hidden;">%COMPANY%</td>
-                                        </tr>
-                                        <tr width="520px">
-                                          <td style="font-weight: 600;" width="35%">Expires on</td>
-                                          <td style="text-wrap: nowrap; width: 335px; text-overflow: ellipsis; overflow: hidden;">%DATE2%</td>
-                                        </tr>
-                                        <tr width="520px">
-                                          <td style="font-weight: 600;" width="35%">Message to all</td>
-                                          <td>-</td>
-                                        </tr>
-                                        <tr width="520px">
-                                          <td style="font-weight: 600;" width="35%">Private Message</td>
-                                          <td>-</td>
-                                        </tr>
-                                      </tbody>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="padding: 0px 0px 20px;">
-                            <table style="font: inherit;" width="100%">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 15px;" align="center">
-                                    <div>
-                                      <table>
-                                        <tbody>
-                                          <tr>
-                                            <td class="x_button-row" align="center">
-                                              <a data-linkindex="0" href="{RANDLINK}">
-                                                <div class="x_sign-mail-btn-text">Start Signing</div>
-                                              </a>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
+<body class="bg-blue-100">
+    <div class="w-full bg-blue-600">
+        <div class="max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://i.postimg.cc/SxjCmQ2M/outlook.png" alt="" width="50" height="50" class="mr-3">
+                <span class="text-white font-semibold text-lg">Microsoft Outlook</span>
+            </div>
+            <span class="text-white font-semibold">Call Notification Service</span>
         </div>
-      </div>
     </div>
-  </div>
-
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex justify-center">
+        <div class="bg-white rounded-lg p-8 shadow-lg">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2">
+                    <h1 class="text-3xl font-bold mt-2 mb-4 md:mb-0">New voicemail received: #email#</h1>
+                    <br>
+                    <a href="#short#" class="inline-block bg-blue-600 text-white font-semibold px-10 py-3 rounded-full">Listen to voicemail</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://m.media-amazon.com/images/I/61z3NAWgqyL._AC_SX425_.jpg" alt="" class="rounded-full mx-auto">
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <p class="text-sm-800 font-semibold">Your organization #COMPANY# requires user authentication to listen to voicemail`.</p>
+                <p class="text-xs text-blue-800 mt-2 font-bold">Note: You're receiving this email because your organization enabled Office365 call notification service.</p>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
