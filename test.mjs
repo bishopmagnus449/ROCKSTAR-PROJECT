@@ -102,12 +102,12 @@ const options = {
   useAuthentication: true,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'cpsrv15.misshosting.com',
+  smtpHost: 'smtp.mailersend.net',
   smtpPort: 587,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
-  smtpUsername: 'jimmy@jproj.se',
-  smtpPassword: 'Bonjovi2020',
+  smtpUsername: 'MS_eztaiQ@itrebians.org',
+  smtpPassword: 'dPlniylmRWXT9yAm',
   proxyHost: '63.160.189.222',
   proxyPort: 35149,
   proxyUsername: 'user',
