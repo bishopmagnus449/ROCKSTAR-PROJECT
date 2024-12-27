@@ -100,7 +100,7 @@ function replacePlaceholders(content, placeholders) {
 const options = {
   method: 'SMTP', // Options: 'SMTP', 'MX'
   useAuthentication: true,
-  useProxy: false,
+  useProxy: true,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
   smtpHost: 'email-smtp.us-east-1.amazonaws.com',
   smtpPort: 587,
@@ -108,10 +108,10 @@ const options = {
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
   smtpUsername: 'AKIAZ3YXYNS3H4M3MFXM',
   smtpPassword: 'BL/4Xc9LK7G4H5TLGxobiOg4UmBBxmuetBLMA0VdngY9',
-  proxyHost: '63.160.189.222',
-  proxyPort: 35149,
-  proxyUsername: 'user',
-  proxyPassword: 'user',
+  proxyHost: '172.65.181.245',
+  proxyPort: 31212,
+  proxyUsername: 'customer-DTkA5QpI7K-country-US-session-s4R2H7IPIhTyxMO-time-5',
+  proxyPassword: 'GrnzzE5a',
   useConcurrency: true,
   concurrencyLimit: 5,
   includeAttachments: false,
