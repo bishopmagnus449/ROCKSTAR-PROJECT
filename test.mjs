@@ -100,7 +100,7 @@ function replacePlaceholders(content, placeholders) {
 const options = {
   method: 'SMTP', // Options: 'SMTP', 'MX'
   useAuthentication: true,
-  useProxy: true,
+  useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
   smtpHost: 'email-smtp.us-east-1.amazonaws.com',
   smtpPort: 587,
