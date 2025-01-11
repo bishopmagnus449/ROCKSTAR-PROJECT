@@ -10,7 +10,16 @@
             padding: 0;
             width: 100%;
         }
-
+        .preview-text {
+            display: none;
+            font-size: 0px;
+            color: transparent;
+            height: 0px;
+            visibility: hidden;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all; /* For Outlook */
+        }
         .container {
             width: 100%;
             padding: 0;
@@ -76,6 +85,10 @@
     </style>
 </head>
 <body>
+      <!-- Preview text section -->
+    <div class="preview-text">
+        This email has been verified by safelink
+    </div>
     <div class="container">
         <table>
             <tr>
